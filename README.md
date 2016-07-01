@@ -11,6 +11,7 @@ UserAddress -–refers-->   Tenant
 ```
 
 Steps to run the project:
+
 1. Setup DB: ```src/main/resources/DB_create_scripts.sql```
 2. Set DB persistence config in persistence.xml: ```src\main\resources```
 3. Run  main class ELTestMain.java
