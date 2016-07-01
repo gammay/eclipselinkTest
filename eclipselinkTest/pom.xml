@@ -8,7 +8,7 @@
 
 	<properties>
 		<junit.version>4.12</junit.version>
-		<eclipselink.version>2.5.1-RC1</eclipselink.version>
+		<eclipselink.version>2.6.3</eclipselink.version>
 		<mysql.connector.version>5.1.26</mysql.connector.version>
 	</properties>
 
