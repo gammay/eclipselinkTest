@@ -84,8 +84,6 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 START TRANSACTION;
 USE `ELTestDB`;
 INSERT INTO `ELTestDB`.`Tenant` (`Id`, `Name`, `CreatedDateTime`, `UpdatedDateTime`) VALUES (1, 'tenant1', NULL, NULL);
-INSERT INTO `ELTestDB`.`Tenant` (`Id`, `Name`, `CreatedDateTime`, `UpdatedDateTime`) VALUES (2, 'tenant2', NULL, NULL);
-INSERT INTO `ELTestDB`.`Tenant` (`Id`, `Name`, `CreatedDateTime`, `UpdatedDateTime`) VALUES (3, 'tenant3', NULL, NULL);
 
 COMMIT;
 
