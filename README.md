@@ -5,7 +5,7 @@ Project to reproduce the eclipseLink issue - ***Entity Attribute set in @PrePers
 Entity model:
 
 ```
-Tenant -–has-> User -–has-> UserAddress
+Tenant -–has--> User -–has--> UserAddress
 ```
 
 Steps to run the project:
