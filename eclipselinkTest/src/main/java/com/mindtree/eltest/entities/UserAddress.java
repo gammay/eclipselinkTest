@@ -24,7 +24,7 @@ public class UserAddress implements Serializable {
 	private String addressLine2;
 	
 	@ManyToOne
-	@JoinColumn(name="Tenant",referencedColumnName="Id")
+	@JoinColumn(name="Tenant",referencedColumnName="Id", updatable=false)
 	private Tenant tenant;
 
 	public UserAddress() {

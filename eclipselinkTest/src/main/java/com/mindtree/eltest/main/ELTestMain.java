@@ -32,7 +32,6 @@ public class ELTestMain {
 		UserAddress ua = new UserAddress();
 		ua.setAddressLine1("line1");
 		ua.setAddressLine2("line2");
-		// ua.setTenant(new Tenant(1, ""));
 		user.setUserAddressList(Arrays.asList(new UserAddress[] { ua }));
 
 		// Temp fix - uncomment below lines

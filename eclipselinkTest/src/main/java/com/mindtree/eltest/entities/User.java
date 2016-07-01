@@ -31,7 +31,7 @@ public class User implements Serializable {
 	private String name;
 
 	@ManyToOne
-	@JoinColumn(name = "Tenant", referencedColumnName = "Id",updatable=false)
+	@JoinColumn(name = "Tenant", referencedColumnName = "Id", updatable=false)
 	private Tenant tenant;
 	
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
